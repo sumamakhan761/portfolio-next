@@ -29,7 +29,7 @@ function Hero() {
 
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-lg'>
-            Hi, I&apos;m Sumama, a MERN stack developer with expertise in DSA
+            Hi, I'm Sumama,  MERN stack developer with expertise in DSA
           </p>
           <a href="#about">
             <MagicButton
