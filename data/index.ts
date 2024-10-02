@@ -1,7 +1,7 @@
 export const navItems = [
+  { name: "Home", link: "#" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,68 +72,72 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "TradingWaves - Stock Trading Platform",
+    des: "Website featuring an intuitive user interface and advanced functionalities ensuring a seamless and efficient user experience.",
+    img: "/trading.svg",
+    iconLists: ["/mongodb-icon.svg", "/javascript-1.svg", "/re.svg", "/nodejs-icon.svg", "/bootstrap-4.svg",],
+    link: "https://tradingwave.onrender.com",
+    hover: "visit",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Chlo-Metting- krain - Video Conferencing App",
+    des: "Simplify your video conferencing experience. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/mongodb-icon.svg", "/javascript-1.svg", "/re.svg", "/nodejs-icon.svg","/webrtc.svg", "socket-io.svg" ],
+    link: "https://chlo-meething-krain.onrender.com",
+    hover: "visit",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "TradingWaves - Stock Trading Platform",
+    des: "Website featuring an intuitive user interface and advanced functionalities ensuring a seamless and efficient user experience.",
+    img: "/trading.svg",
+    iconLists: ["/mongodb-icon.svg", "/javascript-1.svg", "/re.svg", "/nodejs-icon.svg", "/bootstrap-4.svg",],
+    link: "https://tradingwave.onrender.com",
+    hover: "visit",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Chlo-Metting- krain - Video Conferencing App",
+    des: "Simplify your video conferencing experience. Seamlessly connect with colleagues and friends.",
+    img: "/p2.svg",
+    iconLists: ["/mongodb-icon.svg", "/javascript-1.svg", "/re.svg", "/nodejs-icon.svg","/webrtc.svg", "socket-io.svg" ],
+    link: "https://chlo-meething-krain.onrender.com",
+    hover: "visit",
   },
 ];
 
-export const testimonials = [
+export const aboutme = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I am sumama! dedicated developer with one year of experience in web development, machine learning and Data Structures and Algorithms(DSA). I am currently studying at IITP(BS CS). Apart from web development, I have special interest in machine learning. I like the idea to apply different algorithms and integrate AI into my apps, to make them more useful.",
+    name: "Sumama khan",
+    title: "MERN stack | Machine & Deep Learning | AI",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I am sumama! dedicated developer with one year of experience in web development, machine learning and Data Structures and Algorithms(DSA). I am currently studying at IITP(BS CS). Apart from web development, I have special interest in machine learning. I like the idea to apply different algorithms and integrate AI into my apps, to make them more useful.",
+    name: "Sumama khan",
+    title: "MERN stack | Machine & Deep Learning | AI",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I am sumama! dedicated developer with one year of experience in web development, machine learning and Data Structures and Algorithms(DSA). I am currently studying at IITP(BS CS). Apart from web development, I have special interest in machine learning. I like the idea to apply different algorithms and integrate AI into my apps, to make them more useful.",
+    name: "Sumama khan",
+    title: "MERN stack | Machine & Deep Learning | AI",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I am sumama! dedicated developer with one year of experience in web development, machine learning and Data Structures and Algorithms(DSA). I am currently studying at IITP(BS CS). Apart from web development, I have special interest in machine learning. I like the idea to apply different algorithms and integrate AI into my apps, to make them more useful.",
+    name: "Sumama khan",
+    title: "MERN stack | Machine & Deep Learning | AI",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I am sumama! dedicated developer with one year of experience in web development, machine learning and Data Structures and Algorithms(DSA). I am currently studying at IITP(BS CS). Apart from web development, I have special interest in machine learning. I like the idea to apply different algorithms and integrate AI into my apps, to make them more useful.",
+    name: "Sumama khan",
+    title: "MERN stack | Machine & Deep Learning | AI",
   },
 ];
 
@@ -205,13 +209,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/sumamakhan761"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/sumamakhan761",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/sumama-khan",
   },
 ];
