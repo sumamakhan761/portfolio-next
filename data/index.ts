@@ -90,11 +90,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "TradingWaves - Stock Trading Platform",
+    title: "animation-bee - Front-end ",
     des: "Website featuring an intuitive user interface and advanced functionalities ensuring a seamless and efficient user experience.",
     img: "/trading.svg",
     iconLists: ["/mongodb-icon.svg", "/javascript-1.svg", "/re.svg", "/nodejs-icon.svg", "/bootstrap-4.svg",],
-    link: "https://tradingwave.onrender.com",
+    link: "https://animation-bee.onrender.com/",
     hover: "visit",
   },
   {

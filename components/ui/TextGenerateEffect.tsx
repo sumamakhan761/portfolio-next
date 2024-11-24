@@ -29,7 +29,6 @@ export const TextGenerateEffect = ({
   words,
   className,
   filter = true,
-  duration = 0.5,
 }: {
   words: string;
   className?: string;
@@ -45,10 +44,6 @@ export const TextGenerateEffect = ({
         opacity: 1,
         filter: filter ? "blur(0px)" : "none",
       },
-      {
-        duration: duration ? duration : 1,
-        delay: stagger(0.2),
-      }
     );
   }, [scope.current]);
 
